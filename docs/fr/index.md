@@ -9,7 +9,7 @@ toc_title: "Aper\xE7u"
 
 ClickHouse est un système de gestion de base de données orienté colonne (SGBD) pour le traitement analytique en ligne des requêtes (OLAP).
 
-Dans un SGBD “normal” orienté ligne, les données sont stockées de cet façon :
+Dans un SGBD “normal” orienté ligne, les données sont stockées de cette façon :
 
 | Rangée | WatchID     | JavaEnable | Intitulé                         | GoodEvent | EventTime           |
 |--------|-------------|------------|----------------------------------|-----------|---------------------|
@@ -32,7 +32,7 @@ Dans un SGBD orienté colonne, les données sont stockées comme ceci :
 | GoodEvent:  | 1                                | 1                   | 1                   | …   |
 | EventTime:  | 2016-05-18 05:19:20              | 2016-05-18 08:10:20 | 2016-05-18 07:38:00 | …   |
 
-Ces exemples montrent dans quel ordre sont orientées les données. Les valeurs des différentes colonnes sont stockées séparément, et les données de la même colonne sont stockées ensemble.
+Ces exemples montrent dans quel ordre sont organisées les données. Les valeurs des différentes colonnes sont stockées séparément, et les données d'une même colonne sont stockées ensemble.
 
 Exemples de SGBD orienté colonne: Vertica, Paraccel (matrice Actian et Amazon Redshift), Sybase IQ, Exasol, Infobright, InfiniDB, MonetDB (VectorWise et Actian Vector), LucidDB, SAP HANA, Google Dremel, Google PowerDrill, Druid et kdb+.
 
