@@ -5,7 +5,7 @@ toc_priority: 0
 toc_title: "Aper\xE7u"
 ---
 
-# Qu'Est-Ce Que ClickHouse? {#what-is-clickhouse}
+# Qu'est-ce que ClickHouse? {#what-is-clickhouse}
 
 ClickHouse est un système de gestion de base de données orienté colonne (SGBD) pour le traitement analytique en ligne des requêtes (OLAP).
 
